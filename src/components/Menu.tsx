@@ -12,7 +12,7 @@ export default function Menu() {
         menu
           ? " opacity-100 translate-x-0"
           : " opacity-100 pointer-events-none -translate-x-full"
-      } w-[50vw] h-dvh bg-black top-0 left-0 z-50 px-4 min-w-60 py-10 flex flex-col gap-20 transition-all fixed `}
+      } w-[50vw] min-h-dvh bg-black top-0 left-0 z-50 px-4 min-w-60 py-10 flex flex-col gap-20 transition-all fixed `}
     >
       <button
         onClick={() => toggleMenu()}
@@ -57,7 +57,7 @@ export default function Menu() {
         </Link>
         <Link
           onClick={() => toggleMenu()}
-          href="#"
+          href="/partners"
           className="h-full hover:text-sky transition-all active:scale-95"
         >
           Socios

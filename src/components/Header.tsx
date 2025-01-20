@@ -68,12 +68,12 @@ export default function Header() {
             >
               Soluciones
             </a>
-            <a
-              href="#"
+            <Link
+              href="/partners"
               className="border-b-2 border-black border-opacity-0 h-full flex items-center justify-center hover:border-opacity-100 transition-all min-w-32"
             >
               Socios
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

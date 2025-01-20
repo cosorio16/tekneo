@@ -16,8 +16,8 @@ export default function Partners() {
       <main className="min-h-screen">
         <Hero />
         <Modal />
-        <section className="p-14 flex flex-col gap-10">
-          <p className="max-w-7xl m-auto w-full">
+        <section className="p-5 lg:p-14 flex flex-col gap-10">
+          <p className="max-w-7xl m-auto w-full text-greytxt">
             El ecosistema Tekneo proporciona soluciones integradas para
             garantizar una seguridad completa de extremo a extremo. Tekneo reúne
             a una comunidad global de socios tecnológicos con experiencia
@@ -25,7 +25,7 @@ export default function Partners() {
             integración. Tekneo trabaja con los socios mencionados a
             continuación para ofrecer soluciones.
           </p>
-          <div className="grid grid-cols-3 items-center justify-items-center gap-14 max-w-7xl w-full m-auto">
+          <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 items-center justify-items-center gap-14 max-w-7xl w-full m-auto">
             <Image
               src={"/partners/image 4.png"}
               alt={""}

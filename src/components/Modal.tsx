@@ -10,7 +10,7 @@ export default function Modal() {
         createPortal(
           <>
             <div className="fixed inset-0 bg-black bg-opacity-60 z-40"></div>
-            <div className="modal fixed z-50 top-[calc(50%-200px)] left-[calc(50%-300px)] bg-white w-[600px] p-5 shadow-2xl rounded-xl flex flex-col gap-4">
+            <div className="modal fixed z-50 bg-white p-5 shadow-2xl rounded-xl flex flex-col gap-4 h-fit inset-5 max-w-[600px] top-[calc(50%-300px)] md:left-[calc(50%-300px)]">
               <button
                 onClick={() => toggleModal()}
                 className="self-end rounded-full hover:bg-[#ff0000] hover:text-white transition-all p-1  "
